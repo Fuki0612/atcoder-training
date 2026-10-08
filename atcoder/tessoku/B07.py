@@ -12,7 +12,8 @@ S = [0]
 for x in count[:-1]:
   S.append(S[-1] + x)
 
-print(S[1:])
+for i in range(1,T+1):
+  print(S[i])
 
 
 
